@@ -1,0 +1,55 @@
+```html
+{% extends "base.html" %}
+{% block title %}AgriBot{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">AgriBot: Agriculture Assistant</h2>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div id="chat-container" class="mb-3" style="max-height: 400px; overflow-y: auto;">
+                <div class="alert alert-info" role="alert">
+                    Welcome to AgriBot! Ask about crops, soil, pests, plant diseases, or any agriculture topic.
+                </div>
+                {% if message and response %}
+                    <div class="alert alert-light text-end">
+                        <strong>You:</strong> {{ message | safe }}
+                    </div>
+                    <div class="alert alert-success">
+                        <strong>AgriBot:</strong> {{ response | safe }}
+                    </div>
+                {% endif %}
+            </div>
+            <form id="chat-form" method="POST" action="{{ url_for('chatbot') }}">
+                <div class="input-group mb-3">
+                    <textarea id="message" name="message" class="form-control" rows="2" placeholder="Ask about crops, soil, pests, or plant care..." required>{{ message if message else '' }}</textarea>
+                    <button type="submit" class="btn btn-primary" id="send-button">Send</button>
+                </div>
+            </form>
+            <div id="loading" class="d-none text-center">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const chatContainer = document.getElementById('chat-container');
+        const form = document.getElementById('chat-form');
+        const sendButton = document.getElementById('send-button');
+        const loading = document.getElementById('loading');
+
+        chatContainer.scrollTop = chatContainer.scrollHeight;
+
+        form.addEventListener('submit', () => {
+            sendButton.disabled = true;
+            loading.classList.remove('d-none');
+        });
+    });
+</script>
+{% endblock %}
+```

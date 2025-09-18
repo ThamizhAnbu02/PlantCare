@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container col-xxl-8 px-4 py-5"> 
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6"> 
+            <img src="../static/images/ai-generated-closeup-of-hands-in-white-gloves-planting-or-caring-for-young-green-plant-in-pot-gardening-tips-plant-care-environmental-conservation-background-photo.jpg" class="d-block mx-lg-auto img-fluid" alt="Plant care image" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6"> 
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to PlantCare</h1> 
+            <p class="lead">
+                PlantCare helps you identify plant diseases from leaf images and provides eco-friendly, organic solutions. Simply upload a leaf image, and get accurate disease predictions along with natural treatment options. Perfect for farmers and gardeners looking for sustainable solutions.
+            </p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start"> 
+                <a href="{{ url_for('upload' if current_user.is_authenticated else 'login') }}" class="btn btn-success">Diagnose</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

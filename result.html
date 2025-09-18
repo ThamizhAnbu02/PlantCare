@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Diagnosis Result{% endblock %}
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Diagnosis Result</h2>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <div class="row">
+                <!-- Image Column -->
+                <div class="col-md-6 text-center">
+                    <img src="{{ image_url }}" alt="Uploaded Plant Image" class="img-fluid rounded" style="max-width: 100%;">
+                </div>
+                <!-- Details Column -->
+                <div class="col-md-6">
+                    <h4 class="card-title">Disease Identified: {{ disease }}</h4>
+                    <p class="card-text"><strong>Description:</strong> {{ description }}</p>
+                    <p class="card-text"><strong>Organic Solution:</strong> {{ solution }}</p>
+                    <p class="card-text"><strong>Possible Steps:</strong> {{ possible_steps }}</p>
+                    <p class="card-text"><strong>Guidance:</strong> {{ guidance }}</p>
+                    <p class="card-text"><strong>Source:</strong> {{ source }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="{{ url_for('upload') }}" class="btn btn-primary">Upload Another Image</a>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Back to Home</a>
+    </div>
+</div>
+{% endblock %}

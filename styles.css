@@ -1,0 +1,24 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+}
+.alert-success { background-color: #d4edda; color: #155724; }
+.alert-danger { background-color: #f8d7da; color: #721c24; }
+.alert-info { background-color: #d1ecf1; color: #0c5460; }
+.btn-primary { background-color: #28a745; border-color: #28a745; }
+.btn-primary:hover { background-color: #218838; border-color: #1e7e34; }
+.navbar { background-color: #28a745; }
+.navbar-brand, .nav-link { color: white !important; }
+.navbar-brand:hover, .nav-link:hover { color: #e0e0e0 !important; }
+.img-fluid { max-width: 100%; height: auto; }
