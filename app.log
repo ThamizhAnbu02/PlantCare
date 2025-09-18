@@ -1,0 +1,100 @@
+2025-05-16 14:15:12,774 - INFO - CNN model loaded successfully
+2025-05-16 14:15:12,852 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-16 14:15:12,852 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 14:15:12,864 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-16 14:15:17,009 - INFO - CNN model loaded successfully
+2025-05-16 14:15:17,047 - WARNING -  * Debugger is active!
+2025-05-16 14:15:17,063 - INFO -  * Debugger PIN: 103-990-966
+2025-05-16 14:24:57,395 - INFO -  * Detected change in 'C:\\Users\\KF_20\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\base64.py', reloading
+2025-05-16 14:24:57,418 - INFO -  * Detected change in 'C:\\Users\\KF_20\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\io.py', reloading
+2025-05-16 14:24:58,107 - INFO -  * Detected change in 'D:\\plant_disease_app - Copy\\app.py', reloading
+2025-05-16 14:24:58,112 - INFO -  * Detected change in 'D:\\plant_disease_app - Copy\\app.py', reloading
+2025-05-16 14:24:59,396 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-16 14:32:59,183 - INFO - BlenderBot model loaded successfully
+2025-05-16 14:32:59,383 - WARNING - ResNet18 model not found, falling back to custom CNN
+2025-05-16 14:32:59,893 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-16 14:32:59,893 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 14:32:59,906 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-16 14:33:14,396 - INFO - BlenderBot model loaded successfully
+2025-05-16 14:33:14,605 - WARNING - ResNet18 model not found, falling back to custom CNN
+2025-05-16 14:33:15,248 - WARNING -  * Debugger is active!
+2025-05-16 14:33:15,248 - INFO -  * Debugger PIN: 103-990-966
+2025-05-16 14:43:27,485 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-16 14:44:30,539 - INFO - DistilBERT model loaded successfully
+2025-05-16 14:44:30,798 - WARNING - ResNet18 model not found, falling back to custom CNN
+2025-05-16 14:44:31,291 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-16 14:44:31,291 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-16 14:48:32,686 - ERROR - Failed to load DistilBERT: distilbert-base-uncased-finetuned-squad is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-05-16 14:51:19,551 - ERROR - Failed to load DistilBERT: distilbert/distilbert-base-uncased-finetuned-squad is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-05-17 09:07:50,840 - ERROR - Failed to load DistilBERT: distilbert/distilbert-base-uncased-finetuned-squad is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-05-17 09:18:27,133 - ERROR - Failed to load DistilBERT: distilbert-base-uncased-finetuned-squad is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`
+2025-05-17 09:20:46,901 - WARNING - ResNet18 model not found, falling back to custom CNN
+2025-05-17 09:20:47,386 - ERROR - Class mapping mismatch: index=7, expected=Corn___Cercospora_leaf_spot Gray_leaf_spot, got=Corn___Cercospora_leaf_spot
+2025-05-17 09:20:47,388 - ERROR - Class mapping mismatch: index=9, expected=Corn___Northern_Leaf_Blight, got=Corn___Northern_leaf_blight
+2025-05-17 09:20:47,389 - ERROR - Class mapping mismatch: index=12, expected=Grape___Esca_(Black_Measles), got=Grape___Esca
+2025-05-17 09:20:47,390 - ERROR - Class mapping mismatch: index=13, expected=Grape___Leaf_blight_(Isariopsis_Leaf_Spot), got=Grape___Leaf_blight
+2025-05-17 09:20:47,391 - ERROR - Class mapping mismatch: index=15, expected=Orange___Haunglongbing_(Citrus_greening), got=Orange___Haunglongbing
+2025-05-17 09:20:47,396 - ERROR - Class mapping mismatch: index=33, expected=Tomato___Spider_mites Two-spotted_spider_mite, got=Tomato___Spider_mites
+2025-05-17 09:20:47,430 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 09:20:47,430 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 09:47:14,687 - ERROR - ResNet34 model not found, falling back to custom CNN
+2025-05-17 09:47:15,145 - ERROR - Class mapping mismatch: index=5, expected=Cherry_(including_sour)___Powdery_mildew, got=Cherry___Powdery_mildew
+2025-05-17 09:47:15,145 - ERROR - Class mapping mismatch: index=6, expected=Cherry_(including_sour)___healthy, got=Cherry___healthy
+2025-05-17 09:47:15,145 - ERROR - Class mapping mismatch: index=7, expected=Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot, got=Corn___Cercospora_leaf_spot
+2025-05-17 09:47:15,145 - ERROR - Class mapping mismatch: index=8, expected=Corn_(maize)___Common_rust_, got=Corn___Common_rust
+2025-05-17 09:47:15,145 - ERROR - Class mapping mismatch: index=9, expected=Corn_(maize)___Northern_Leaf_Blight, got=Corn___Northern_leaf_blight
+2025-05-17 09:47:15,145 - ERROR - Class mapping mismatch: index=10, expected=Corn_(maize)___healthy, got=Corn___healthy
+2025-05-17 09:47:15,161 - ERROR - Class mapping mismatch: index=12, expected=Grape___Esca_(Black_Measles), got=Grape___Esca
+2025-05-17 09:47:15,162 - ERROR - Class mapping mismatch: index=13, expected=Grape___Leaf_blight_(Isariopsis_Leaf_Spot), got=Grape___Leaf_blight
+2025-05-17 09:47:15,162 - ERROR - Class mapping mismatch: index=15, expected=Orange___Haunglongbing_(Citrus_greening), got=Orange___Haunglongbing
+2025-05-17 09:47:15,162 - ERROR - Class mapping mismatch: index=33, expected=Tomato___Spider_mites Two-spotted_spider_mite, got=Tomato___Spider_mites
+2025-05-17 09:47:15,195 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 09:47:15,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 09:54:23,543 - INFO - Custom CNN model loaded and compiled successfully
+2025-05-17 09:54:23,600 - ERROR - Class mapping mismatch: index=7, expected=Corn___Cercospora_leaf_spot Gray_leaf_spot, got=Corn___Cercospora_leaf_spot
+2025-05-17 09:54:23,600 - ERROR - Class mapping mismatch: index=9, expected=Corn___Northern_Leaf_Blight, got=Corn___Northern_leaf_blight
+2025-05-17 09:54:23,606 - ERROR - Class mapping mismatch: index=12, expected=Grape___Esca_(Black_Measles), got=Grape___Esca
+2025-05-17 09:54:23,612 - ERROR - Class mapping mismatch: index=13, expected=Grape___Leaf_blight_(Isariopsis_Leaf_Spot), got=Grape___Leaf_blight
+2025-05-17 09:54:23,612 - ERROR - Class mapping mismatch: index=15, expected=Orange___Haunglongbing_(Citrus_greening), got=Orange___Haunglongbing
+2025-05-17 09:54:23,654 - ERROR - Class mapping mismatch: index=33, expected=Tomato___Spider_mites Two-spotted_spider_mite, got=Tomato___Spider_mites
+2025-05-17 09:54:23,702 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 09:54:23,702 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 10:40:05,303 - INFO - ResNet34 model loaded and compiled successfully
+2025-05-17 10:40:05,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 10:40:05,344 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 10:40:05,355 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-17 10:40:09,735 - INFO - ResNet34 model loaded and compiled successfully
+2025-05-17 10:40:09,782 - WARNING -  * Debugger is active!
+2025-05-17 10:40:09,788 - INFO -  * Debugger PIN: 103-990-966
+2025-05-17 10:44:08,984 - INFO -  * Detected change in 'D:\\plant_disease_app - Copy\\app.py', reloading
+2025-05-17 10:44:17,608 - INFO - ResNet34 model loaded and compiled successfully
+2025-05-17 10:44:17,656 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 10:44:17,657 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 10:44:17,664 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-17 10:44:22,165 - INFO - ResNet34 model loaded and compiled successfully
+2025-05-17 10:44:22,191 - WARNING -  * Debugger is active!
+2025-05-17 10:44:22,207 - INFO -  * Debugger PIN: 103-990-966
+2025-05-17 10:57:05,083 - INFO -  * Detected change in 'D:\\plant_disease_app - Copy\\app.py', reloading
+2025-05-17 10:57:05,085 - INFO -  * Detected change in 'D:\\plant_disease_app - Copy\\app.py', reloading
+2025-05-17 10:57:06,969 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-17 10:57:17,619 - INFO - ResNet34 model loaded and compiled successfully
+2025-05-17 10:57:17,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 10:57:17,651 - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 10:57:17,673 - INFO -  * Restarting with watchdog (windowsapi)
+2025-05-17 10:57:21,993 - INFO - ResNet34 model loaded and compiled successfully
+2025-05-17 10:57:22,041 - WARNING -  * Debugger is active!
+2025-05-17 10:57:22,041 - INFO -  * Debugger PIN: 103-990-966
+2025-05-17 11:02:09,488 - INFO -  * Detected change in 'D:\\plant_disease_app - Copy\\app.py', reloading
